@@ -1,8 +1,3 @@
-const SUPABASE_URL = "https://wkkwpmwviyzbqftnquyz.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_oKndLG3lxKTqiHR1pDeO6g_upE9lhoN";
-
-const db = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
 // --- DATA MASTER PRODUK ---
         const products = [
             { id: 1, name: "Caffè Latte Premium", price: 45000, category: "coffee", img: "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400" },
